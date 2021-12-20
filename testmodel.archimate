@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="(new model)" id="id-80d599c6bedf4fba8498e0406730e468" version="4.9.0">
+  <folder name="Strategy" id="id-5e255127cad24cfead77f6faa4db06cf" type="strategy"/>
+  <folder name="Business" id="id-a3fb8e8f4246485fadc7642b68d66a66" type="business">
+    <element xsi:type="archimate:BusinessObject" name="Business Object" id="id-c60da32471e14eaab80cc18ceff2d834"/>
+    <element xsi:type="archimate:Contract" name="Contract" id="id-e6a9c49fea8144cd95a9e8c1939c3331"/>
+  </folder>
+  <folder name="Application" id="id-9b638aa45c6d44e3b51e66815ec50b5c" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-c67414eaf703423483f3d2e3409c7fd3" type="technology">
+    <element xsi:type="archimate:Node" name="Node" id="id-0622ac2a994747b2856916603a21311c"/>
+    <element xsi:type="archimate:Node" name="Node" id="id-66add35dd8154043a86bc7a1b94e78ce"/>
+  </folder>
+  <folder name="Motivation" id="id-698644dd36f445018dd52dd912370e8b" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-93cde733726b486690a9633e7478b2dc" type="implementation_migration"/>
+  <folder name="Other" id="id-db198cbce12d4bc092f9b9ef80d68581" type="other"/>
+  <folder name="Relations" id="id-a34f39a100e04f6c905097ff92d2c5e9" type="relations"/>
+  <folder name="Views" id="id-d54af1d4c05a4e8e9888d73ac9cb3f03" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-3e438396ef994ef087f8a97feea958a6">
+      <child xsi:type="archimate:DiagramObject" id="id-9daeb0dd4f3b497a8304fad335c074cb" archimateElement="id-0622ac2a994747b2856916603a21311c">
+        <bounds x="442" y="307" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-6dbf27086c54479e97e790e1bd15db10" archimateElement="id-66add35dd8154043a86bc7a1b94e78ce">
+        <bounds x="918" y="336" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-54005b3fae7e4dc3ad1480b607651a6a" archimateElement="id-c60da32471e14eaab80cc18ceff2d834">
+        <bounds x="951" y="175" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-8775ef0c469247bb9b5be7b1fb473ab7" archimateElement="id-e6a9c49fea8144cd95a9e8c1939c3331">
+        <bounds x="533" y="172" width="120" height="55"/>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
